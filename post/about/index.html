@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | Gridea</title>
-<link rel="shortcut icon" href="https://jkesh.github.io/jkesh.io/favicon.ico?v=1606658420785">
+<link rel="shortcut icon" href="https://jkesh.github.io/jkesh.io/favicon.ico?v=1606658558400">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://jkesh.github.io/jkesh.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="关于 | Gridea - Atom Feed" href="https://jkesh.github.io/jkesh.io/atom.xml">
@@ -28,7 +28,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://jkesh.github.io/jkesh.io">
-  <img class="avatar" src="https://jkesh.github.io/jkesh.io/images/avatar.png?v=1606658420785" alt="">
+  <img class="avatar" src="https://jkesh.github.io/jkesh.io/images/avatar.png?v=1606658558400" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -123,6 +123,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'a9bcb4079ddf8ba1d4e8',
+    clientSecret: 'ce09490fef82045e76e6a8c7c0a4e60ef9e6fd51',
+    repo: 'jkesh.github.io',
+    owner: 'jkesh',
+    admin: ['jkesh'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
